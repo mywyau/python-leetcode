@@ -13,7 +13,7 @@ def _():
 
 @test("multiple groups of same answer")
 def _():
-    assert num_rabbits([1, 1, 1, 1]) == 6
+    assert num_rabbits([1, 1, 1, 1]) == 4
 
 @test("empty input returns 0")
 def _():
